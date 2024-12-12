@@ -11,7 +11,7 @@ Each book includes details such as title, author, description, image, price, and
 2. Discount Support
 Highlights books with active discounts and displays the discount percentage.
 3. Comprehensive Book Details
-Includes the number of pages and the library where the book is available.
+Includes the number of pages.
 Real book covers fetched from Google Books API.
 4. Extensibility
 Built with a clean, extensible structure using Model Classes.
