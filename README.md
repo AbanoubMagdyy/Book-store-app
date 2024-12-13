@@ -25,3 +25,24 @@ Built with a clean, extensible structure using Model Classes.
 Easy to add new categories or modify existing data.
 5. Famous Libraries
 Features renowned libraries in Egypt as book sources.
+
+
+### Installation
+
+1. **Clone the repository:**
+
+    ```bash
+    git clone https://github.com/AbanoubMagdyy/Book-store-app.git
+    ```
+
+2. **Install dependencies:**
+
+    ```bash
+    flutter pub get
+    ```
+
+3. **Run the app:**
+
+    ```bash
+    flutter run
+    ```
