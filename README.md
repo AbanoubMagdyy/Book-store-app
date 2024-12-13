@@ -12,21 +12,18 @@ Built using Flutter, the app provides a high-performance, cross-platform experie
 
 ### What's inside the app?
 
-1. Explore Book Categories
-Books are categorized into genres like Technology, Science, and Sports.
-Each book includes details such as title, author, description, image, price, and ratings.
-2. Discount Support
-Highlights books with active discounts and displays the discount percentage.
-3. Comprehensive Book Details
-Includes the number of pages.
-Real book covers fetched from [Goodreads](https://www.goodreads.com/).
-
-
-5. Extensibility
-Built with a clean, extensible structure using Model Classes.
+1.  **Explore Book Categories**
+ - Books are categorized into genres like Technology, Science, and Sports.
+ - Each book includes details such as title, author, description, image, price, and ratings.
+2. **Discount Support**
+ - Highlights books with active discounts and displays the discount percentage.
+3. **Comprehensive Book Details**
+ - Includes the number of pages.Real book covers fetched from [Goodreads](https://www.goodreads.com/).
+4. **Extensibility**
+ - Built with a clean, extensible structure using Model Classes.
 Easy to add new categories or modify existing data.
-6. Famous Libraries
-Features renowned libraries in Egypt as book sources.
+5. **Famous Libraries**
+ - Features renowned libraries in Egypt as book sources.
 
 
 ### Installation
