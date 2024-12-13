@@ -1,5 +1,5 @@
 # Book Store App
-he Book Library App is a platform for browsing and discovering books across various categories such as Technology, Science, Sports, and more. Users can view detailed information about each book, including its title, author, description, ratings, and discounts. Additionally, the app shows the library where each book is available for purchase.
+The Book Library App is a platform for browsing and discovering books across various categories such as Technology, Science, Sports, and more. Users can view detailed information about each book, including its title, author, description, ratings, and discounts. Additionally, the app shows the library where each book is available for purchase.
 
 Built using Flutter, the app provides a high-performance, cross-platform experience with a clean and user-friendly interface.
 
