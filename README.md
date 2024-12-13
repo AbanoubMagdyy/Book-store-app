@@ -19,11 +19,13 @@ Each book includes details such as title, author, description, image, price, and
 Highlights books with active discounts and displays the discount percentage.
 3. Comprehensive Book Details
 Includes the number of pages.
-Real book covers fetched from Google Books API.
-4. Extensibility
+Real book covers fetched from [Goodreads](https://www.goodreads.com/).
+
+
+5. Extensibility
 Built with a clean, extensible structure using Model Classes.
 Easy to add new categories or modify existing data.
-5. Famous Libraries
+6. Famous Libraries
 Features renowned libraries in Egypt as book sources.
 
 
