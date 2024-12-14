@@ -4,11 +4,9 @@ The Book Library App is a platform for browsing and discovering books across var
 Built using Flutter, the app provides a high-performance, cross-platform experience with a clean and user-friendly interface.
 
 ## Screenshots
-<img src="https://github.com/user-attachments/assets/68a25f42-93a4-4457-95f8-fc17808632f7"  height="500"/>  
-<img src="https://github.com/user-attachments/assets/48b96932-e154-42aa-80f6-bf9bf8c3f900"  height="500"/>  
-<img src="https://github.com/user-attachments/assets/06f6ab93-c282-4d2e-9daa-2943211a7e44" height="500"/>  
-<img src="https://github.com/user-attachments/assets/087643d9-4fb0-4c34-85d9-6498d2ce998e"  height="500"/>  
-<img src="https://github.com/user-attachments/assets/a5c1f879-40b5-435d-b9ed-fc91646022f8"  height="500"/>  
+<img src="https://drive.google.com/uc?export=view&id=15_xocmmlSaup5Gglc-GfpLk2kh0fwDDh"  height="500" width="400"/>  <img src="https://drive.google.com/uc?export=view&id=17QQxkUby5tbKp9jJYG65xf44U23outbB"  height="500" width="400"/>  
+<img src="https://drive.google.com/uc?export=view&id=1Y4rhLVHzZseQ-2GnC2sah2EE8YgqA-bU" height="500" width="400"/>  <img src="https://drive.google.com/uc?export=view&id=1NRKL5SnLJ3bAI9u2MrgXFlbXpXqdWGxs"  height="500" width="400"/>  
+<img src="https://drive.google.com/uc?export=view&id=1OJute5oPvr32ynfTzJTFZcLaeU0kUNQP"  height="500" width="400"/>  
 
 ### What's inside the app?
 
