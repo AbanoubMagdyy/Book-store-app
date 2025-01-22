@@ -21,3 +21,6 @@ class LoadingGetBooks extends AppStates {}
 class SuccessGetBooks extends AppStates {}
 
 class ErrorGetBooks extends AppStates {}
+
+class SuccessGetUserData extends AppStates {}
+

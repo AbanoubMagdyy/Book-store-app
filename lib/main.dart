@@ -1,6 +1,5 @@
-import 'package:bloc/bloc.dart';
-import 'package:book_store/Core/utils/style/colors.dart';
-import 'package:book_store/Features/home/presentation/view_model/app_cubit/app_cubit.dart';
+import 'package:book_store/Core/constants/constants.dart';
+import 'package:book_store/book_store_app_screen.dart';
 import 'package:firebase_core/firebase_core.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
@@ -24,32 +23,12 @@ void main() async {
   await Firebase.initializeApp(
     options: DefaultFirebaseOptions.currentPlatform,
   );
-  bool isFirstTime = await Shared.getDate('isFirstTime') ?? false;
+  userEmail = await Shared.getDate('email') ?? '';
   Widget screen;
-  if (isFirstTime) {
+  if (userEmail != '') {
     screen = const AppLayout();
   } else {
     screen = const AuthenticationScreen();
   }
   runApp(BookStoreApp(screen));
-}
-
-class BookStoreApp extends StatelessWidget {
-  final Widget screen;
-
-  const BookStoreApp(this.screen, {super.key});
-
-  @override
-  Widget build(BuildContext context) {
-    return BlocProvider(
-      create: (context) => AppCubit()..getBooks(),
-      child: MaterialApp(
-        debugShowCheckedModeBanner: false,
-        theme: ThemeData(
-          fontFamily: 'Merriweather',
-        ),
-        home: AuthenticationScreen(),
-      ),
-    );
-  }
 }

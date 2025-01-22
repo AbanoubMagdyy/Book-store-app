@@ -59,8 +59,10 @@ class _SignupScreenState extends State<SignupScreen> {
             onTap: () {
               if (formKey.currentState!.validate()) {
                 AuthenticationCubit.get(context).signUpMethod(
+                    userName: nameController.text,
                     email: emailController.text,
-                    password: passwordController.text);
+                    password: passwordController.text,
+                    );
               }
             },
             text: 'Sign up',

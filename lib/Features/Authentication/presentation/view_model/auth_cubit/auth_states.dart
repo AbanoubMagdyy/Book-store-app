@@ -4,25 +4,39 @@ class InitialState extends AuthenticationStates {}
 
 class ChangeSlider extends AuthenticationStates {}
 
-class ChangeVisibility extends AuthenticationStates {}
-
 class LoadingSignIn extends AuthenticationStates {}
 
 class SuccessSignIn extends AuthenticationStates {}
 
-class ErrorSignIn extends AuthenticationStates {}
+class ErrorSignIn extends AuthenticationStates {
+  final String error;
+
+  ErrorSignIn(this.error);
+}
 
 class LoadingSignUp extends AuthenticationStates {}
 
 class SuccessSignUp extends AuthenticationStates {}
 
-class ErrorSignUP extends AuthenticationStates {
+class ErrorSignUp extends AuthenticationStates {
   String error;
-  ErrorSignUP(this.error);
+  ErrorSignUp(this.error);
 }
 
 class LoadingForgotPassword extends AuthenticationStates {}
 
 class SuccessForgotPassword extends AuthenticationStates {}
 
-class ErrorForgotPassword extends AuthenticationStates {}
+class ErrorForgotPassword extends AuthenticationStates {
+
+  String error;
+  ErrorForgotPassword(this.error);
+}
+
+
+class SuccessCreateUser extends AuthenticationStates {}
+
+class ErrorCreateUser extends AuthenticationStates {
+  String error;
+  ErrorCreateUser(this.error);
+}

@@ -32,6 +32,9 @@ class CustomTextField extends StatelessWidget {
           }
           return null;
         },
+        onTapOutside: (pointerDownEvent) {
+          FocusScope.of(context).unfocus();
+        },
         cursorColor: AppColors.primaryColor,
         obscureText: isPassword,
         decoration: InputDecoration(

@@ -45,10 +45,10 @@ class BestSellerItemWidget extends StatelessWidget {
                   style: AppTextStyles.textStyle24Bold
                       .copyWith(color: AppColors.secondaryColor),
                 ),
-                InkWell(
+                const InkWell(
                   //    onTap: ()=>bottomSheet(context,cubit.drinkWithMaxNumberOfSold()),
                   child: Row(
-                    children: const [
+                    children: [
                       Text(
                         'More info',
                         style: TextStyle(color: Colors.white70),

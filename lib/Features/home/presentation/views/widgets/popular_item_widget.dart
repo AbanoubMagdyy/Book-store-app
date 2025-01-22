@@ -1,5 +1,4 @@
 import 'package:flutter/material.dart';
-import 'package:cached_network_image/cached_network_image.dart';
 import '../../../../../Core/utils/functions/cache_image_function.dart';
 import '../../../../../Core/utils/style/colors.dart';
 import '../../../../../Core/utils/style/text_styles.dart';
@@ -7,7 +6,6 @@ import '../../../data/models/book_model.dart';
 
 class PopularItemWidget extends StatelessWidget {
   final BookModel bookModel;
-
   const PopularItemWidget(this.bookModel, {super.key});
 
   @override

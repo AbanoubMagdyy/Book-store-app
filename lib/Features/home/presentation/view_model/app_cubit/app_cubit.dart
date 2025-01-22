@@ -1,3 +1,5 @@
+import 'package:book_store/Core/constants/constants.dart';
+import 'package:book_store/Features/Authentication/data/models/user_model.dart';
 import 'package:book_store/Features/home/presentation/views/library_screen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:flutter/foundation.dart';
@@ -68,6 +70,18 @@ class AppCubit extends Cubit<AppStates> {
         print(error.toString());
       }
       emit(ErrorGetBooks());
+    });
+  }
+
+  UserModel? userModel;
+  Future<void> getUserData() async {
+    await FirebaseFirestore.instance
+        .collection('Users')
+        .doc(userEmail)
+        .get()
+        .then((value) async {
+      userModel = UserModel.fromJson(value.data()!);
+      emit(SuccessGetUserData());
     });
   }
 

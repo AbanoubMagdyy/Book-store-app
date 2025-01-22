@@ -76,7 +76,8 @@ class _SigninScreenState extends State<SigninScreen> {
               if (formKey.currentState!.validate()) {
                 AuthenticationCubit.get(context).signInMethod(
                     email: emailController.text,
-                    password: passwordController.text);
+                    password: passwordController.text,
+                    );
               }
             },
             text: 'Sign in',
